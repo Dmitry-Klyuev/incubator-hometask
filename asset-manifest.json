@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Dmirty-Dev/static/css/main.6d1eb16f.css",
+    "main.js": "/Dmirty-Dev/static/js/main.3715b006.js",
+    "static/js/787.66cb4309.chunk.js": "/Dmirty-Dev/static/js/787.66cb4309.chunk.js",
+    "static/media/avatar.png": "/Dmirty-Dev/static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "/Dmirty-Dev/index.html",
+    "main.6d1eb16f.css.map": "/Dmirty-Dev/static/css/main.6d1eb16f.css.map",
+    "main.3715b006.js.map": "/Dmirty-Dev/static/js/main.3715b006.js.map",
+    "787.66cb4309.chunk.js.map": "/Dmirty-Dev/static/js/787.66cb4309.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d1eb16f.css",
+    "static/js/main.3715b006.js"
+  ]
+}
