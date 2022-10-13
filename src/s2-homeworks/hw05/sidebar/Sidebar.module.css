@@ -1,5 +1,6 @@
 .sidebar {
     display: none;
+    visibility: hidden;
     position: absolute;
     width: 31rem;
     min-height: 100%;
@@ -9,12 +10,13 @@
     z-index: 999;
     transform: translateX(-100rem);
     transition: all 1s;
-    box-shadow: 7px 1px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 7px 1px 8px 0 rgba(34, 60, 80, 0.2);
 
 }
 
 .sidebar.open {
-    display: block;
+    visibility: visible;
+    display: block ;
     transform: translateX(0);
     transition: all .5s;
 }
@@ -53,7 +55,6 @@
 
 .nav a.active {
     color: #0059B2;
-    visibility: visible;
     text-decoration-line: underline;
 }
 
