@@ -52,6 +52,7 @@
 }
 
 .nav a.active {
+    visibility: visible;
     color: #0059B2;
     text-decoration-line: underline;
 }
