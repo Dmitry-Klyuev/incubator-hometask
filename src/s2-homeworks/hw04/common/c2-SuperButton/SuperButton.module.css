@@ -1,9 +1,12 @@
 .button {
-    width: 13.2rem;
-    height: 3rem;
+    min-width: 12.9rem;
+    min-height: 3rem;
+    font-size: 14px;
     border-radius: 3px;
     border: none;
     cursor: pointer;
+    padding: 5px 24px;
+    margin: 0 24px 0 0;
 }
 
 .disabled {

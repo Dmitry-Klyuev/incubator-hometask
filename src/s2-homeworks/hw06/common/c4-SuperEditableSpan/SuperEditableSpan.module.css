@@ -1,10 +1,18 @@
 .spanBlock {
+    display: flex;
+    align-items: center;
+    height: 4.8rem;
 }
 
 .span {
+    margin-top: 1rem;
+    /*display: flex;*/
+    /*align-items: center;*/
 }
 
 .input {
+
+
 }
 
 .pen {
