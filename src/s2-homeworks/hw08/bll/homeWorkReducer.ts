@@ -4,17 +4,24 @@ type ActionType =
     | { type: 'sort'; payload: 'up' | 'down' }
     | { type: 'check'; payload: number }
 
-export const homeWorkReducer = (state: any, action: any): any => { // need to fix any
+export const homeWorkReducer = (state: Array<UserType>, action: ActionType): Array<UserType> => { // need to fix any
     switch (action.type) {
         case 'sort': { // by name
+            if (action.payload === 'up'){
+                return state.sort((a, b) => a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1 )
 
-            return state // need to fix
-        }
-        case 'check': {
+            }else if (action.payload === 'down'){
+                return state.sort((a, b) => a.name.toLowerCase() < b.name.toLowerCase() ? 1 : -1 )
 
-            return state // need to fix
+            }
+            return state
         }
+        case 'check':
+            {
+
+                return state.filter(el => el.age >= action.payload) // need to fix
+            }
         default:
             return state
+        }
     }
-}
